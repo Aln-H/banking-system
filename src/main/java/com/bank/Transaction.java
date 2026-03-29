@@ -5,6 +5,7 @@ import java.util.Date;
 public class Transaction {
     protected Date date;
     protected String type;
+    private double amount; 
 
     public Transaction(String type) {
         this.date = new Date();
