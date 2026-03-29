@@ -11,7 +11,11 @@ public class Transaction {
         this.type = type;
     }
 
-    public void printReceipt() {
-        System.out.println("Transaction: " + type + " Date: " + date);
-    }
+public void print() {
+    System.out.println("===== TRANSACTION RECEIPT =====");
+    System.out.println("Date: " + date);
+    System.out.println("Type: " + type);
+    System.out.println("Amount: ₹" + amount);
+    System.out.println("===============================");
+}
 }
